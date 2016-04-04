@@ -152,6 +152,7 @@
     <Content Include="jspm_packages\system-csp-production.js.map" />
     <Content Include="jspm_packages\system-polyfills.js.map" />
     <Content Include="jspm_packages\system.js.map" />
+    <Content Include="surveys.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -166,6 +167,7 @@
     <Content Include="custom_controls\create.html" />
     <Content Include="custom_controls\create.js" />
     <Content Include="custom_controls\list.html" />
+    <Content Include="custom_controls\list.js" />
     <Content Include="custom_controls\nav-bar.html" />
     <Content Include="home.html" />
     <Content Include="home.js" />
@@ -1536,6 +1538,7 @@
     <Content Include="jspm_packages\system-polyfills.src.js" />
     <Content Include="jspm_packages\system.js" />
     <Content Include="jspm_packages\system.src.js" />
+    <Content Include="Services\SurveyRetriever.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
