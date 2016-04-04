@@ -163,6 +163,8 @@
     <Content Include="app.html" />
     <Content Include="app.js" />
     <Content Include="config.js" />
+    <Content Include="create.html" />
+    <Content Include="create.js" />
     <Content Include="index.html" />
     <Content Include="jspm_packages\github\jspm\nodelibs-assert%400.1.0.js" />
     <Content Include="jspm_packages\github\jspm\nodelibs-assert%400.1.0\index.js" />
@@ -1530,6 +1532,8 @@
     <Content Include="jspm_packages\system-polyfills.src.js" />
     <Content Include="jspm_packages\system.js" />
     <Content Include="jspm_packages\system.src.js" />
+    <Content Include="list.html" />
+    <Content Include="list.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
