@@ -1,19 +1,22 @@
-﻿import { bindable } from 'aurelia-framework';
+﻿import { inject } from 'aurelia-framework';
+import { EventAggregator } from 'aurelia-event-aggregator';
 
+@inject(EventAggregator)
 export class Create {
-    @bindable surveys;
 
-    constructor () {
+    constructor (eventAggregator) {
+        this.eventAggregator = eventAggregator;
         this.surveyName = '';
     }
 
     addSurvey() {
-        this.surveys.push(
-            { 
-                name: this.surveyName, 
-                recipients: 0
-            });
 
+        var survey = { 
+            name: this.surveyName, 
+            recipients: 0
+        };
+
+        this.eventAggregator.publish('surveyCreated', survey);
         this.surveyName = '';
     }
 }
