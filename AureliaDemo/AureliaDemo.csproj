@@ -66,6 +66,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="custom_controls\surveyCount.html" />
+    <Content Include="custom_controls\surveyCount.js" />
     <Content Include="packages.config" />
     <Content Include="jspm_packages\.dependencies.json" />
     <Content Include="jspm_packages\.loaderversions" />
