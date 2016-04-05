@@ -11,7 +11,7 @@ export class SurveyRetriever {
     }
 
     getAll() {
-        return this.httpClient.get('http://localhost:50131/surveys.json').then(response => {
+        return this.httpClient.get(getUrl).then(response => {
             return response.content
         });
     }
