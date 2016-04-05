@@ -12,6 +12,6 @@ export class List {
         this.surveyRetriever.getAll()
                             .then(surveys => { 
                                 this.surveys = surveys; 
-                            });
+                            }); 
     }
 }
